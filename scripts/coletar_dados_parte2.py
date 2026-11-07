@@ -1,10 +1,3 @@
-"""
-Coleta complementar (parte 2) - mais leve e tolerante a erros.
-  pip install requests pandas
-  python coletar_dados_parte2.py
-Gera a pasta ./dados_parte2/  -> compacte e envie (igual a anterior).
-Tempo estimado: 5-15 min. Se algum dia falhar, ele pula e continua.
-"""
 import os, time, requests, pandas as pd
 from datetime import datetime, timezone, timedelta
 

@@ -1,10 +1,3 @@
-"""
-Coletor de dados Deribit (API publica, sem chave) para o 7o Datathon FGV EESP.
-Rode no SEU computador:   pip install requests pandas
-                          python coletar_dados_deribit.py
-Saida: pasta ./dados_deribit/  -> compacte e envie para o Claude.
-Tempo estimado: 10-30 min (depende da janela historica).
-"""
 import os, time, requests, pandas as pd
 from datetime import datetime, timezone, timedelta
 
